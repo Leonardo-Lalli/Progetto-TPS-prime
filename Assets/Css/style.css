@@ -1,10 +1,42 @@
 *{
-    font-family: Georgia;
+    font-family: Georgia,;
+    box-sizing: border-box;
+
 }
-.titolo{
-    font-size: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 20px;
+body{
+    background-color: #59667A;
+}
+
+.box {
+    width: 800px;
+    height: 100%;
+    margin: auto; 
+    background-color: #1e293b;
+    border-radius: 16px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.titolo {
+    font-size: 40px;
+    font-weight: 700;;
+    color: #38bdf8;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #38bdf8, transparent);
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.testo {
+    color: #cbd5e1;
+    letter-spacing: 0.5px;
 }
