@@ -1,0 +1,1 @@
+docker run --name SitoTPS-prime -p 8080:80 -v "C:\Users\lalli\Desktop\Superiori\Scuola 5IA 26-27\TPS\Esercizi\Progetto-TPS-prime:/usr/share/nginx/html:ro" -d nginx
